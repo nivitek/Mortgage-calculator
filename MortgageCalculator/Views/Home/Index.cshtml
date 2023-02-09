@@ -99,3 +99,12 @@ Want to know, <a href="/Home/About">How to use Mortgage Calculator?</a>
         border-radius: 4px;
     }
 </style>
+<script>
+    $('input[type=text]').attr("autocomplete", "off");
+    $('input[type=text]').focus(function() {
+    $(this).val('');
+});
+    $('input[type=number]').focus(function() {
+    $(this).val('');
+});
+</script>
