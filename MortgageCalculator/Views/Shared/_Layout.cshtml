@@ -7,7 +7,7 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
-    <link rel="icon" href="@Url.Content("~/Content/DimwitLogo.ico")" />
+    <link rel="icon" href="@Url.Content("~/Content/dimwitlogo.png")" />
 </head>
 <body>
 
@@ -20,7 +20,6 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="@Url.Action("Index", "Home")" title="dimwit-techy">
-                    <img src="~/Content/DimwitLogo.png" alt="Dimwit_Logo" style="height:30px; width: 30px;" />
                     @Html.ActionLink("dimwit-techy", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 </a>
             </div>
